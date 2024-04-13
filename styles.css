@@ -1,0 +1,134 @@
+.titulocol {
+    font-size: 50px;
+    color: white;
+    -webkit-text-fill-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .columna1 {
+    margin-right: 150px;
+    margin-bottom: 300px;
+  }
+  
+  .txtmapas {
+    font: size 50px;
+    color: white;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  .Contenedoruno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -2px;
+    padding: 300px 0px 100px 0px;
+    height: 250px;
+  }
+  
+  .columna {
+    flex: 1;
+  }
+  
+  .image1 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  
+  .titulocol {
+    font-size: 50px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 400px;
+  
+  }
+  
+  .logo-text {
+    color: #01C880;
+    margin: 0 10px;
+  }
+  
+  .alert-section {
+    display: flex;
+  }
+  
+  .alert-content {
+    text-align: center;
+  }
+  
+  .nosotros {
+    text-align: center;
+    height: 900px;
+    background-image: url("images/bck3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container {
+    margin: 5px;
+    border-radius: 50px;
+    border-style: inherit;
+  }
+  
+  .fixed-image {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #01C880;
+    border-radius: 50%;
+  }
+  
+  .text-container {
+    margin: 5px;
+  }
+  
+  .reference {
+    height: 350px;
+    background-image: url("images/bck4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  
+  .custom-button {
+    background-color: #01C880;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 33px;
+    width: 186.84px;
+    height: 54px;
+    left: 46.53%;
+    right: 21.18%;
+    top: 770px;
+  }
+  
+  .alert-title {
+    height: 65px;
+    left: 46.53%;
+    right: 21.18%;
+    color: #01C880;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 65px;
+    top: 200px;
+  }
