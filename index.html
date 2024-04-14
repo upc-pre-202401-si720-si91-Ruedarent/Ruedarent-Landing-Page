@@ -1,12 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page Ruedarent</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
+    <!--barra navegadora-->
+    <!--Section David-->
+    <section class="mapas">
+        <nav class="navbar">
+            <div class="menu-toggle">
+                <div class="menu-toggle-bar"></div>
+                <div class="menu-toggle-bar"></div>
+                <div class="menu-toggle-bar"></div>
+            </div>
+            <div class="logo-container">
+                <img src="images/RuedaRent_icon.png" alt="Logo">
+                <span class="logo-container txt">RuedaRent</span>
+            </div>
+            <ul>
+                <li><a href="#home" class="borderless-btn">Home</a></li>
+                <li><a href="#alertas" class="borderless-btn">Inscríbase</a></li>
+                <li><a href="#prono" class="borderless-btn">Vehículos</a></li>
+                <li><a href="#nostros" class="borderless-btn">Nosotros</a></li>
+                <li><a href="#contacto" class="borderless-btn">Contacto</a></li>
+                <li><a href="#ofrecemos" class="borderless-btn">Beneficios</a></li>
+                <li><a href="#" class="round-btn login">Login</a></li>
+                <li><a href="#" class="round-btn signup">Sign Up</a></li>
+            </ul>
+
+            <div class="section-container">
+                <a href="#" class="section"></a>
+            </div>
+        </nav>
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navList = document.querySelector('nav div ul');
+            const logo = document.querySelector('.logo-container');
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                logo.classList.toggle('inactive');
+                navList.classList.toggle('active');
+            });
+        </script>
+        <div id="home" class="Contenedoruno">
+            <div class="columna">
+                <img class="image1" src="images/mapa2.png" class="imgBanner" alt="">
+            </div>
+            <div class="columna1">
+                <p id="txtmapas" class="txtmapas">
+                    <span style="font-size: 35pt; font-weight: bold;">RuedaRent</span>
+                    <br>
+                    RuedaRent es una plataforma con el <br>
+                    objetivo de brindar a las personas la <br>
+                    facilidad de poder probar nuevas formas<br>
+                    de movilizarse, así como ayudar al medio<br>
+                    ambiente.
+                </p>
+                <div class="botonesimagenes">
+                    <a href="#" class="btn1banner">Ver más</a>
+                    <a href="#" class="btn2banner">Quiero información</a>
+                </div>
+
+            </div>
+            <div class="columna">
+                <img class="image1" src="images/bike1.png" class="imgBanner2" alt="">
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <!--Section Alejandro-->
+    <section>
+        <div class="alertas">
+    </section>
+    <div id="alertas" class="alert-section">
+        <div class="alert-image">
+            <img src="images/alertas.png" alt="Imagen de Alerta" class="alert-img">
+        </div>
+        <div class="alert-content">
+            <h2 class="alert-title">Inscríbase</h2>
+            <h3 style="font-size: 15pt;  font-family: Arial, Helvetica, sans-serif;">Inscriba su medio de transporte, ya
+                sea bicicleta, scooter
+                u otro que ya no use.
+                De esta forme ganar un ingreso extra por medio de alquileres a otro usuario. De esta manera, podrá
+                ayudar a otras personas a descubrir una nueva
+                afición y a contribuir con el medio ambiente.</h3>
+            <h3> </h3>
+            <h3> </h3>
+            <br>
+            <button class="custom-button">MORE</button>
+        </div>
+    </div>
+    <section>
+        </div>
+    </section>
+    <!--Section Beth-->
     <section id="prono" class="backofr">
         <div class="Ofrecemos">
             <br><br><br><br><br><br><br><br>
@@ -37,7 +129,7 @@
 
         </div>
     </section>
-    
+    <!--Section Juan-->
     <section id="Beneficios" class="Beneficios">
         <div class="ContenerdorBeneficios">
             <div class="titulito">
@@ -63,26 +155,44 @@
             </div>
         </div>
     </section>
-    <section id="alertas" class="alert-section">
-        <div class="alert-image">
-          <img
-            src="images/alertas.png"
-            alt="Imagen de Alerta"
-            class="alert-img"
-          />
+    <!--Section Niurka-->
+    <section>
+        <section id="nostros" class="nosotros">
+            <h2 style="font-size: 35pt;  font-family: Arial;">Nosotros</h2>
+        </section>
         </div>
-        <article class="alert-content">
-          <h2 class="alert-title">Inscríbase</h2>
-          <h3 style="font-size: 15pt; font-family: Arial, Helvetica, sans-serif">
-            Inscriba su medio de transporte, ya sea bicicleta, scooter u otro que
-            ya no use. De esta forme ganar un ingreso extra por medio de
-            alquileres a otro usuario. De esta manera, podrá ayudar a otras
-            personas a descubrir una nueva afición y a contribuir con el medio
-            ambiente.
-          </h3>
-          <br />
-          <button class="custom-button">MORE</button>
-        </article>
-      </section>    
+    </section>
+
+    <div id="contacto" class="contact-section">
+        <h1>Contacto</h1>
+        <p>Dejenos sus datos y nos comunicaremos con usted</p>
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Teléfono">
+        <input type="text" placeholder="Email">
+        <button type="submit">Enviar</button>
+    </div>
+    <section class="background-section">
+        <div class="column">
+            <h2>RuedaRent</h2>
+            <p></p>
+        </div>
+        <div class="column">
+            <h2>Links</h2>
+            <ul>
+                <li>Home</li>
+                <li>Ubicación</li>
+                <li>Nosotros</li>
+                <li>Ofrecemos</li>
+                <li>Contacto</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Contact Us</h2>
+            <p>+51 987 654 321</p>
+            <p>RuedaRent@gmail.com</p>
+            <p>Lima, Perú</p>
+        </div>
+    </section>
 </body>
+
 </html>
